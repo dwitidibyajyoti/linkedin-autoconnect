@@ -1,0 +1,139 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+#header{
+    height: 40px;
+    width: 100%;
+    background-color: #8D8DAA;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-family: 'Akshar', sans-serif;
+    font-size: 1rem;
+}
+#body{
+    height: 260px;
+    width: 100%;
+    background-color: #b5b5cfec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter{
+    flex: 50%;
+    width: 160px;
+    height: 160px;
+    display: block;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBtn{
+    padding: 10px;
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.actionBtn button{
+    background-color: #4E944F;
+    /* #F56D91 */
+    height: 44px;
+    width: 234px;
+    border-radius: 7px;
+    border: none;
+    color: #201b1b;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Akshar', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 0px 30px 1px rgba(94, 91, 91, 0.6);
+    
+
+
+} 
+
+.actionBtn button:hover{
+  box-shadow: 1px 0px 30px 1px rgba(233, 211, 16, 0.6);
+}
+.paragraph{
+    flex: 20%;
+
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.circles-small {
+    margin: 0 auto;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+}
+  
+  .circle-small {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+  }
+  
+  .circle-small svg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .circle-small .bg {
+    fill: none;
+    stroke-width: 6px;
+    stroke: #343035;
+  }
+  
+  .circle-small .progress {
+    fill: none;
+    stroke-width: 6px;
+    stroke: #9a0fe0;
+    stroke-linecap: round;
+    stroke-dasharray: 232.36;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+  }
+  
+  .circle-small .progress.two {
+    stroke-dashoffset: 233;
+    transition: transform 250ms ease-in;
+  }
+  
+  .circle-small .text {
+    position: absolute;
+    width: 100%;
+    top: 31px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  .circle-small .text .small {
+    font-size: 12px;
+    color: #fff;
+  }
+  
+ 
+  
+  
