@@ -1,6 +1,6 @@
 # Project Title
 
-This is a crome extenson for send Linkdin auto connect  
+This is a chrome extension for send Linkedin auto connect  
 
 
 ## Installation
